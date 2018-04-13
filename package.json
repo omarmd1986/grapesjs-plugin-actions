@@ -1,6 +1,6 @@
 {
   "name": "grapesjs-plugin-actions",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "GrapesJS Plugin to clean the canvas",
   "main": "dist/grapesjs-plugin-actions.min.js",
   "scripts": {
