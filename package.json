@@ -1,7 +1,8 @@
 {
-  "name": "grapesjs-plugin-cleanBtn",
-  "version": "0.0.0",
-  "description": "GrapesJS Plugin to clean the canvas", "main": "dist/grapesjs-plugin-clean.min.js",
+  "name": "grapesjs-plugin-clean",
+  "version": "0.0.3",
+  "description": "GrapesJS Plugin to clean the canvas",
+  "main": "dist/grapesjs-plugin-clean.min.js",
   "scripts": {
     "lint": "eslint src",
     "v:patch": "npm version --no-git-tag-version patch",
@@ -14,7 +15,8 @@
   },
   "keywords": [
     "grapesjs",
-    "plugin", "clean"
+    "plugin",
+    "clean"
   ],
   "author": "Omar Martinez",
   "license": "BSD-3-Clause",
