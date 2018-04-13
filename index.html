@@ -5,7 +5,7 @@
         <title>GrapesJS Plugin Boilerplate</title>
         <link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet">
         <script src="https://unpkg.com/grapesjs"></script>
-        <script src="dist/grapesjs-plugin-clean.min.js"></script>
+        <script src="dist/grapesjs-plugin-actions.min.js"></script>
         <script src="/node_modules/grapesjs-blocks-basic/dist/grapesjs-blocks-basic.min.js"></script>
         <style>
             body,
@@ -34,9 +34,9 @@
                 container: '#gjs',
                 fromElement: true,
 
-                plugins: ['gjs-blocks-basic', 'gjs-plugin-clean'],
+                plugins: ['gjs-blocks-basic', 'gjs-plugin-actions'],
                 pluginsOpts: {
-                    'gjs-plugin-clean': {},
+                    'gjs-plugin-actions': {},
                     'gjs-blocks-basic': {
                         flexGrid: 1
                     }

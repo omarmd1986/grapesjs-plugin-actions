@@ -4,7 +4,7 @@ import loadBlocks from './blocks';
 import loadCommands from './commands';
 import loadPanels from './panels';
 
-export default grapesjs.plugins.add('gjs-plugin-clean', (editor, opts = {}) => {
+export default grapesjs.plugins.add('gjs-plugin-actions', (editor, opts = {}) => {
     const options = {...{
                 textCleanCanvas: 'Are you sure you want to clean the canvas?',
                 cleanBtnTitle: 'Clean the canvas'
