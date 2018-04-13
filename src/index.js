@@ -10,6 +10,10 @@ export default grapesjs.plugins.add('gjs-plugin-actions', (editor, opts = {}) =>
 
                 importBtnTitle: 'Import',
 
+                undoBtnTitle: 'Undo',
+
+                redoBtnTitle: 'Redo',
+
                 // Import description inside import modal
                 modalImportLabel: '',
 
