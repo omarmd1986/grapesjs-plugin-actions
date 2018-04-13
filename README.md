@@ -9,6 +9,13 @@
 |-|-|-
 |`textCleanCanvas`|Confirm text to clean the canvas|`Are you sure you want to clean the canvas?`|
 |`cleanBtnTitle`|The button's title|`Clean the canvas`|
+|`importBtnTitle`|The button's title|`Import`|
+|`undoBtnTitle`|The button's title|`Undo`|
+|`redoBtnTitle`|The button's title|`Redo`|
+|`modalImportLabel`|mport description inside import modal|``|
+|`modalImportContent`|Default content to setup on import model open.|``|
+|`modalImportButton`|Modal import button text|`Import`|
+|`modalImportTitle`|Modal import title|`Import`|
 
 
 ## Download
