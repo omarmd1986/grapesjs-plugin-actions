@@ -25,7 +25,7 @@ export default (editor, config) => {
         }, ...config.importViewerOptions});
 
     return {
-        run(editor) {
+        run(editor, sender) {
             if (!viewerEditor) {
                 const txtarea = document.createElement('textarea');
 
@@ -41,6 +41,8 @@ export default (editor, config) => {
                 codeViewer.init(txtarea);
                 viewerEditor = codeViewer.editor;
             }
+
+            sender.set('active', false);
 
             modal.setTitle(config.modalImportTitle);
             modal.setContent(container);

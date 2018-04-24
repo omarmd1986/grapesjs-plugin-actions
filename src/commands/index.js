@@ -7,6 +7,7 @@ export default (editor, config = {}) => {
     // Clean canvas command
     const txtConfirm = config.textCleanCanvas;
     cm.add(cmdClear, e => confirm(txtConfirm) && e.runCommand('core:canvas-clear'));
+    cm.add(cmdClear, (e, s) => { (confirm(txtConfirm) && e.runCommand('core:canvas-clear')); s.set('active', false);});
 
     // Import html to canvas
     cm.add(cmdImport, openImport(editor, config));
